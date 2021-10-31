@@ -1,0 +1,72 @@
+<!--<input type="text" appInputEmail>-->
+
+<!--<admin-products></admin-products>>-->
+
+<!--<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <div class="m-3">
+                
+
+                <form #form="ngForm" (ngSubmit)="submitForm(form)" >
+
+                    <div class="bg-danger text-white p-3 my-2" *ngIf="formSubmitted && form.invalid">
+                        Bir hata oluştu. Bilgilerinizi kontrol ediniz.
+                        <ul>
+                            <li *ngFor="let error of getFormValidationErrors(form)">
+
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-info text-white m-2 p-2">
+                        {{jsonProduct}}
+                    </div>
+                    
+                    <div class="form-group">
+                        <label> Name </label>
+                        <input [(ngModel)]="newProduct.name" required minlength="3" pattern="^[A-Za-z]+$" name="pName" #name="ngModel"  type="text"  class="form-control">,
+                        <div class="alert alert-danger" *ngIf="!name.valid && name.touched">
+                            <p *ngIf="name.errors?.required">Name is required</p>
+                            <p *ngIf="name.errors?.pattern">Only letters and spaces</p>
+                            <p *ngIf="name.errors?.minlength">Min 3 characters</p>
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label> Description </label>
+                        <input required [(ngModel)]="newProduct.description"  name="pDescription" #description="ngModel" type="text" class="form-control">
+                        <div class="alert alert-danger" *ngIf="!description.valid && description.touched">
+                            Description is required
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label> Price </label>
+                        <input   required [(ngModel)]="newProduct.price" type="text" class="form-control" #price="ngModel" name="pPrice">
+                        <div class="alert alert-danger" *ngIf="!price.valid && price.touched">
+                            Price is required
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label> İmage Url </label>
+                        <input required [(ngModel)]="newProduct.imageUrl" type="text" class="form-control" #imageUrl="ngModel" name="pImageUrl">
+                        <div class="alert alert-danger" *ngIf="!imageUrl.valid && imageUrl.touched">
+                            Image is required
+                        </div>
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary">
+                        submit
+                    </button>
+
+                </form>
+
+                
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<app-reactive-forms></app-reactive-forms>

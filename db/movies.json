@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "id": 7,
+      "name": "movie 7",
+      "description": "güzel film",
+      "imageUrl": "7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "movie 31585855235353",
+      "description": "güzel film",
+      "imageUrl": "8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "asdasd",
+      "imageUrl": "asdasdad",
+      "description": "adsdasads"
+    }
+  ]
+}

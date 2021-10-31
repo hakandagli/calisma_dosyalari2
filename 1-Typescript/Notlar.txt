@@ -1,0 +1,4 @@
+-önce ts dosyasının js dosyasındakş karşılığı yaratılmalı. Onun için "tsc dosyaAdi.ts" yazılır.
+-Ardından html sayfasına o js dosyası eklenir veya çıktılar nodemon ile konsolda gösterilebilir.
+-Her değişiklik save edildiğinde "tsc dosyaAdi.ts" komutu ilk terminale yazılmalı veya "tsc dosyaAdi.ts -w" yazılarak otomatik çalıştırma moduna alınabilir.
+-koda console.clear() yazarak nodemon terminalini temizleyebiliriz.

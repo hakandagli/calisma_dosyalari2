@@ -1,0 +1,66 @@
+{
+  "cities": [
+    {
+      "id": 10,
+      "name": "Ankara",
+      "description": "Türkiyenin başkenti",
+      "imageUrl": "7.jpg"
+    },
+    {
+      "id": 2,
+      "name": "İstanbul",
+      "description": "güzel şehir",
+      "imageUrl": "8.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Çorum",
+      "description": "berbat şehir",
+      "imageUrl": "asdasdad"
+    },
+    {
+      "id": 8,
+      "name": "movie 31",
+      "description": "güzel film",
+      "imageUrl": "8.jpg"
+    },
+    {
+      "name": "dsadassadads",
+      "description": "asdsaddasasd",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "name": "asdsadasddassaddas",
+      "description": "asddasadsdasdas",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "name": "adana",
+      "description": "adana belalı bir şehirdir",
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "name": "deneme",
+      "description": "meneme",
+      "userId": 1,
+      "id": 14
+    }
+  ],
+  "photos": [
+    {
+      "cityId": 10,
+      "imageUrl": "https://i2.cnnturk.com/i/cnnturk/75/800x400/60c0a64cd265a22090380456"
+    },
+    {
+      "cityId": 10,
+      "imageUrl": "https://i2.cnnturk.com/i/cnnturk/75/800x400/60c0a64cd265a22090380456"
+    },
+    {
+      "cityId": 10,
+      "imageUrl": "https://i2.cnnturk.com/i/cnnturk/75/800x400/60c0a64cd265a22090380456"
+    }
+  ]
+}

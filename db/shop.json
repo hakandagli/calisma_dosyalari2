@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus Zenbook",
+      "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 500,
+      "categoryId": 2,
+      "description": "a4tech",
+      "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=401&q=80"
+    },
+    {
+      "name": "Telefon",
+      "description": "İphone x",
+      "imageUrl": "https://cdn03.ciceksepeti.com/cicek/kc2933254-1/L/teshir-apple-iphone-x-64-gb--12-ay-hb-bilisim-garantili--kc2933254-1-7b6f5115ad4e41db93353094ea0ec031.jpg",
+      "price": "10000",
+      "categoryId": "2",
+      "id": 3
+    },
+    {
+      "name": "Buzdolabı",
+      "description": "bosch no frost",
+      "imageUrl": "https://productimages.hepsiburada.net/s/19/375/9829525618738.jpg",
+      "price": "10000",
+      "categoryId": "2",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Elektronik"
+    }
+  ]
+}
